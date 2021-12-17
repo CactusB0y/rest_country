@@ -49,6 +49,13 @@
                     </ul>
                 </div>
             </div>
+            <div class="text-left mt-10">
+                <ul>
+                    <li>
+                        <b>Border Countries:</b> <span class="mx-5" v-for="border,index in country.borders" :key="index">{{border}}</span>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 </div>
